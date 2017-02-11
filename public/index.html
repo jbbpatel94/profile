@@ -6,6 +6,19 @@
     <!--link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"-->
     <link rel="stylesheet" type="text/css" href="https://www.aluxian.com/fonts.css">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="manifest" href="../src/manifest.json">
+    <!-- Add to home screen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Vikas Reddy">
+    <link rel="apple-touch-icon" href="v.png">
+    <meta name="twitter:card" value="summary">
+    <meta property="og:title" content="Vikas Reddy">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://vikasreddy-15b6c.firebaseapp.com/">
+    <meta property="og:description" content="Avid programmer passionate about code, design, startups and technology. Currently working as a Full-Stack Developer at @Glider">
+    <meta name="msapplication-TileImage" content="v.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
     <!--
       Notice the use of %PUBLIC_URL% in the tag above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -29,5 +42,24 @@
       To begin the development, run `npm start`.
       To create a production bundle, use `npm run build`.
     -->
+    <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBMk15_n2DZBEl3Iy9q2DRZM4snYo1O4R0",
+        authDomain: "vikasreddy-15b6c.firebaseapp.com",
+        databaseURL: "https://vikasreddy-15b6c.firebaseio.com",
+        storageBucket: "vikasreddy-15b6c.appspot.com",
+        messagingSenderId: "729722647705"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script type="text/javascript">
+      $crisp=[];CRISP_WEBSITE_ID="7d511162-77f6-46f1-ad55-881a2aa8e195";
+      (function(){d=document;s=d.createElement("script");
+        s.src="https://client.crisp.im/l.js";
+        s.async=1;
+        d.getElementsByTagName("head")[0].appendChild(s);})();
+    </script>
   </body>
 </html>

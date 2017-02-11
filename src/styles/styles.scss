@@ -266,6 +266,17 @@ ul {
   list-style: none
 }
 
+.chatIcon {
+  background-color: transparent;
+  -webkit-transition: border .2s;
+  -moz-transition: border .2s;
+  transition: border .2s;
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+  color: #E74A64;
+  display: inline;
+}
+
 h1 {
   font-size: 97.08px;
   display: inline;
