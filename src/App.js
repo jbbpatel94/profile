@@ -14,6 +14,21 @@ class App extends Component {
 
   };
 
+  handleClick = (event) => {
+    var element = document.querySelectorAll('li.active');
+
+    element[0].classList = '';
+    event.target.parentElement.classList = 'active'
+  };
+
+  handleClickMobile = (event) => {
+    let sandwich  = ReactDOM.findDOMNode(this.refs.mobileMenu),
+      ulMenu = ReactDOM.findDOMNode(this.refs.ulMenu);
+
+    sandwich.classList = 'trigger';
+    ulMenu.classList = '';
+  };
+
   render() {
     return (
       <div className="App">
@@ -28,39 +43,39 @@ class App extends Component {
                 <span></span>
               </a>
               <nav>
-                <ul className="" ref="ulMenu">
+                <ul className="" ref="ulMenu" id="ulMenu">
                   <li>
-                    <a href="#home" data-scroll="">
+                    <a href="#home" data-scroll="" onClick={this.handleClickMobile}>
                       Home
                     </a>
                   </li>
                   <li>
-                    <a href="#about" data-scroll="">
+                    <a href="#about" data-scroll="" onClick={this.handleClickMobile}>
                       About
                     </a>
                   </li>
                   <li>
-                    <a href="#skills" data-scroll="">
+                    <a href="#skills" data-scroll="" onClick={this.handleClickMobile}>
                       Skills
                     </a>
                   </li>
                   <li>
-                    <a href="#portfolio" data-scroll="">
+                    <a href="#portfolio" data-scroll="" onClick={this.handleClickMobile}>
                       Portfolio
                     </a>
                   </li>
                   <li>
-                    <a href="#achievements" data-scroll="">
+                    <a href="#achievements" data-scroll="" onClick={this.handleClickMobile}>
                       Achievements
                     </a>
                   </li>
                   <li>
-                    <a href="#experience" data-scroll="">
+                    <a href="#experience" data-scroll="" onClick={this.handleClickMobile}>
                       Experience
                     </a>
                   </li>
                   <li>
-                    <a href="#contact" data-scroll="">
+                    <a href="#contact" data-scroll="" onClick={this.handleClickMobile}>
                       Contact
                     </a>
                   </li>
@@ -68,39 +83,39 @@ class App extends Component {
               </nav>
             </div>
             <nav>
-              <ul>
+              <ul id="ulMenu">
                 <li className="active">
-                  <a href="#home" data-scroll="">
+                  <a href="#home" data-scroll="" onClick={this.handleClick}>
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="#about" data-scroll="">
+                  <a href="#about" data-scroll="" onClick={this.handleClick}>
                     About
                   </a>
                 </li>
                 <li>
-                  <a href="#skills" data-scroll="">
+                  <a href="#skills" data-scroll="" onClick={this.handleClick}>
                     Skills
                   </a>
                 </li>
                 <li>
-                  <a href="#portfolio" data-scroll="">
+                  <a href="#portfolio" data-scroll="" onClick={this.handleClick}>
                     Portfolio
                   </a>
                 </li>
                 <li>
-                  <a href="#achievements" data-scroll="">
+                  <a href="#achievements" data-scroll="" onClick={this.handleClick}>
                     Achievements
                   </a>
                 </li>
                 <li>
-                  <a href="#experience" data-scroll="">
+                  <a href="#experience" data-scroll="" onClick={this.handleClick}>
                     Experience
                   </a>
                 </li>
                 <li>
-                  <a href="#contact" data-scroll="">
+                  <a href="#contact" data-scroll="" onClick={this.handleClick}>
                     Contact
                   </a>
                 </li>
