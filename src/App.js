@@ -55,8 +55,8 @@ class App extends Component {
                     </a>
                   </li>
                   <li>
-                    <a href="#blog" data-scroll="">
-                      Blog
+                    <a href="#experience" data-scroll="">
+                      Experience
                     </a>
                   </li>
                   <li>
@@ -95,8 +95,8 @@ class App extends Component {
                   </a>
                 </li>
                 <li>
-                  <a href="#blog" data-scroll="">
-                    Blog
+                  <a href="#experience" data-scroll="">
+                    Experience
                   </a>
                 </li>
                 <li>
@@ -318,42 +318,32 @@ class App extends Component {
               </li>
             </ul>
           </section>
-          <a name="blog" id="blog"></a>
+          <a name="experience" id="experience"></a>
           <section className="inverted">
             <h3>
               <span>
-                Recent Blog Posts
+                Experience
               </span>
             </h3>
             <ul className="posts">
               <li>
                 <p>
-                  <a href="https://blog.aluxian.com/dropbox-cli-how-to-whitelist-folders-for-selective-sync/">
-                    Dropbox CLI: How to whitelist folders for selective sync
+                  <a href="//snapwiz.com" target="_blank">
+                    Associate software engineer - Snapwiz
                   </a>
                 </p>
                 <p>
-                  11 Jul 2016 on Tips, Tutorials
+                  18 May 2016 -- Present
                 </p>
               </li>
               <li>
                 <p>
-                  <a href="https://blog.aluxian.com/how-i-hacked-codementor-to-build-an-android-app/">
-                    How I hacked Codementor to build an Android app
+                  <a href="//accenture.com" target="_blank">
+                    Associate software engineer - Accenture
                   </a>
                 </p>
                 <p>
-                  22 Jan 2016 on Android, Codementor
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="https://blog.aluxian.com/tweeather-what-why-and-how/">
-                    Tweeather – What, Why and How?
-                  </a>
-                </p>
-                <p>
-                  16 Jan 2016 on Machine Learning
+                  02 Jun 2014 -- 14 Aug 2015
                 </p>
               </li>
             </ul>
