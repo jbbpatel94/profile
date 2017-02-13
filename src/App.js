@@ -130,7 +130,7 @@ class App extends Component {
               VIKAS REDDY
             </h1>
             <h2 className="">
-              PROBLEM SOLVER
+              FULL-STACK DEV
             </h2>
           </div>
           <div className="scroll">
