@@ -311,6 +311,15 @@ class App extends Component {
                   </span>
                 </footer>
               </div>
+              <div className="item">
+                <a href="https://drive.google.com/open?id=0B2J6pHGTd-CtckZlaE9XelFyWlk" target="_blank">
+                  <img src="/portfolio_2.png" width="400" height="250" alt="My Resume" /></a>
+                <footer>
+                  <span>
+                    <a href="https://drive.google.com/open?id=0B2J6pHGTd-CtckZlaE9XelFyWlk" target="_blank">My Resume</a>
+                  </span>
+                </footer>
+              </div>
             </div>
           </section>
           <a name="achievements" id="achievements"></a>
