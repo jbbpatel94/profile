@@ -312,11 +312,11 @@ class App extends Component {
                 </footer>
               </div>
               <div className="item">
-                <a href="https://drive.google.com/open?id=0B2J6pHGTd-CtckZlaE9XelFyWlk" target="_blank">
+                <a href="https://drive.google.com/open?id=0B2J6pHGTd-CtODlTWkR2MXN3Wkk" target="_blank">
                   <img src="/portfolio_2.png" width="400" height="250" alt="My Resume" /></a>
                 <footer>
                   <span>
-                    <a href="https://drive.google.com/open?id=0B2J6pHGTd-CtckZlaE9XelFyWlk" target="_blank">My Resume</a>
+                    <a href="https://drive.google.com/open?id=0B2J6pHGTd-CtODlTWkR2MXN3Wkk" target="_blank">My Resume</a>
                   </span>
                 </footer>
               </div>
